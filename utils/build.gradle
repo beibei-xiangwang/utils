@@ -32,6 +32,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.0.0'
 }
 
 
@@ -39,10 +40,9 @@ dependencies {
 publish {
     userOrg = 'beibei1024'//bintray.com用户名
     repoName = 'base'   // bintray上仓库的名字
-    groupId = 'com.beibei'//jcenter上的路径
-    artifactId = 'utils'//项目名称
+    groupId = 'com.beibei.base'//jcenter上的路径
+    artifactId = 'baseutils'//项目名称
     publishVersion = '0.0.1'//版本号
     desc = 'utils lib'// 描述
     website = 'https://github.com/beibei-xiangwang/utils'//一般填github 项目地址,一定是要有效的地址
 }
-
